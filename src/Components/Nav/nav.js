@@ -23,8 +23,8 @@ function Nav ({cart})  {
                 <div className={classes.item}>
                 <div>
                 <Link to='/cart'>
-                <img src={Logo1} className={classes.carts}  alt="myumg" />
-                <span className={classes.cart_length}>{cart.length}</span>
+                    <img src={Logo1} className={classes.carts}  alt="myumg" />
+                    <span className={classes.cart_length}>{cart.length}</span>
                 </Link>
                 </div>
                 <img src={Logo2} className={classes.myimg}  alt="myumg" />

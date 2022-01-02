@@ -70,9 +70,8 @@ li a:hover{
     width: 20px;
     border-radius: 50%;
     text-align: center;
-    padding: 0rem 0;
+    padding: .1rem .3rem;
     color: #fff;
-    position: absolute;
-    top: 2rem;
-    right: 11rem;
+    font-weight: 700;
+    margin-left: -1rem;
 }
