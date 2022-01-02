@@ -15,7 +15,7 @@
 
 .image{
     width: 430px;
-    height: 430px;
+    height: 300px;
     border-radius: .5rem;
 }
 
@@ -54,6 +54,21 @@
 .disabled{
     opacity: .8;
     cursor: not-allowed;
+}
+
+.main_img{
+    width: 500px;
+}
+
+.small_images{
+    padding-left: .8rem;
+    width: 100%;
+    overflow: hidden;
+}
+.small_images img{
+    width: 100px;
+    height: 100px;
+    padding-right: .1rem;
 }
 
 /* cart page styles*/

@@ -13,8 +13,14 @@ function SingleProduct({ product, cart, setCart }) {
 
     return (
         <div className='products'>
-            <div>
+            <div className='main_img'>
                 <img src={product.image} alt={product.title} className='image' />
+                <div className='small_images'>
+                    <img src={product.image} alt={product.title} className='image' />
+                    <img src={product.image} alt={product.title} className='image' />
+                    <img src={product.image} alt={product.title} className='image' />
+                    <img src={product.image} alt={product.title} className='image' />
+                </div>
             </div>
             <div>
                 <h3 className='header'>{product.header}</h3>
