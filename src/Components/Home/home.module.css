@@ -1,0 +1,123 @@
+/* .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+} */
+/* .flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 70px;
+    font-family: 'Kumbh Sans', sans-serif;
+} */
+.first{
+    width: 50%;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 60px;
+    /* width: 50%; */
+    height: 50%;
+}
+
+.second h3{
+    color: hsl(26, 100%, 55%) ;
+    /* text-align: start; */
+    font-family: 'Kumbh Sans', sans-serif;
+    
+}
+.second h1{
+    font-weight: 700;
+    /* text-align: center; */
+}
+
+.shoe{
+    border-radius: 10px;
+    width: 450px;
+}
+ .wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 1300px;
+    width: 90%;
+    margin: auto;
+    border-radius: 7px;
+  }
+  
+  .products_container{
+    width: 200px;
+    height: 200px;
+    
+  } 
+.money{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.dollar{
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+    padding-right: 20px;
+}
+.percent h3{
+    
+    background-color:  hsl(25, 100%, 94%);
+    border-radius: 7px;
+    height: 20px;
+}
+.prev{
+    font-family: 'Kumbh Sans', sans-serif;
+    color:hsl(220, 14%, 75%);
+    font-weight: 400;
+    font-size: 20px;
+    padding-bottom: 20px;
+    
+}
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.btn button{
+    width:180px;
+    height: 40px;
+    border: none;
+    border-radius: 7px;
+}
+.btnCart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: hsl(26, 100%, 55%);
+    cursor: pointer;
+
+}
+
+.btnCart h5{
+    color: hsl(0, 0%, 100%);
+}
+
+.add{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* cursor: pointer; */
+
+}
+
+.add h3{
+    font-size: 20px;
+}
+.zero{
+    color: hsl(220, 13%, 13%);
+    font-size: 20px;
+}
